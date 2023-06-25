@@ -59,7 +59,7 @@ namespace Permutari
         }
         static void Combinari(int k, int n, int[] S, bool[] B, int p)
         {
-            if (k > p)
+            if (k >= p)
             {
                 bool ok = true;
                 for (int i = 0; i < p - 1; i++)
